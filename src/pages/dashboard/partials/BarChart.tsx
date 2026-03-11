@@ -179,7 +179,7 @@ const DashboardBarChart: React.FC<IStatisticsProps> = ({
                   return (
                     <Text
                       x={x}
-                      y={y + 8}
+                      y={Number(y) + 8}
                       width={barSize * 2}
                       textAnchor="middle"
                       verticalAnchor="start"
